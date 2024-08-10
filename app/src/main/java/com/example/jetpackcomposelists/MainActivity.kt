@@ -82,7 +82,7 @@ fun ScaffoldExample() {
                     }
                 },
                 title = {
-                    Text("Top app bar")
+                    Text("Jetpack Compose")
                 },
                 actions = {
                     IconButton(onClick = {}) {

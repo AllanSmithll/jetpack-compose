@@ -74,7 +74,7 @@ fun ScaffoldExample() {
         topBar = {
             TopAppBar(
                 navigationIcon = {
-                    IconButton(onClick = { /* do something */ }) {
+                    IconButton(onClick = {}) {
                         Icon(
                             Icons.Filled.Menu,
                             contentDescription = "Menu"
@@ -85,7 +85,7 @@ fun ScaffoldExample() {
                     Text("Top app bar")
                 },
                 actions = {
-                    IconButton(onClick = { /* do something */ }) {
+                    IconButton(onClick = {}) {
                         Icon(
                             Icons.Filled.Search,
                             contentDescription = "Search"
@@ -100,7 +100,7 @@ fun ScaffoldExample() {
         },
         floatingActionButton = {
             FloatingActionButton(onClick = { presses++ }) {
-                Icon(Icons.Filled., contentDescription = "Add")
+                Icon(Icons.Filled.Add, contentDescription = "Add")
             }
         },
         bottomBar = {
